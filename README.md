@@ -1,6 +1,6 @@
 <h1>ECOMMERCE</h1>
 
-<p>ECOMMERCE storefront to replicate salesforce type knowledge and development. Displaying ecommerce storefront with the ability to register and login as a shopper to checkout your cart. Check out products and shop etc.</p>
+<p>ECOMMERCE storefront to replicate salesforce type knowledge and development. Displaying ecommerce storefront with the ability to register and login as a shopper to checkout your cart. Using salesforce api for data to replicate implementing salesforce api with external tech (not using apex and LWC)/</p>
 
 <h2>Table of Contents</h2>
   <ul>
