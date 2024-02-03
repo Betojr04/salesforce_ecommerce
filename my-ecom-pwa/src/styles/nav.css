@@ -1,0 +1,52 @@
+.navbar {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand-logo {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover,
+.register-btn {
+  background-color: #0056b3;
+  border-radius: 4px;
+}
+
+.register-btn {
+  padding: 0.5rem 1rem;
+  background-color: #ffc107;
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    /* hamburger menu */
+  }
+}
