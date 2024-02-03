@@ -6,6 +6,8 @@ import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
 // Import more pages as needed
 import { App } from "./App";
+import { Register } from "./Register";
+import { Login } from "./Login";
 
 const Layout = () => {
   return (
@@ -13,8 +15,9 @@ const Layout = () => {
       <div>
         <Nav />
         <Routes>
-          <Route path="/" element={<App />} />
-          {/* <Route path="/about" element={<AboutPage />} /> */}
+          <Route path="/storefront" element={<App />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
       </div>
