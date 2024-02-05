@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-// Import page components here
+// Components
 import { Nav } from "../components/Nav";
 import { Footer } from "../components/Footer";
-// Import more pages as needed
-import { App } from "./App";
+// Pages
+// import { App } from "./App";
 import { Register } from "./Register";
 import { Login } from "./Login";
 
@@ -15,7 +15,7 @@ const Layout = () => {
       <div>
         <Nav />
         <Routes>
-          <Route path="/" element={<App />} />
+          {/* <Route path="/" element={<App />} /> */}
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
         </Routes>
